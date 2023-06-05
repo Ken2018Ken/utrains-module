@@ -1,3 +1,14 @@
+
+# PROJECT BRANCH-------------------------------------------Module.sg
+#____________________________________________________
+#Module and file layout isolation implementation
+#____________________________________________________
+# This file contains security group infrastructure.
+# Author: Kennedy .N
+# Created: 6/3/2023
+#____________________________________________________
+#
+
 locals {
   http_port    = 80
   any_port     = 0

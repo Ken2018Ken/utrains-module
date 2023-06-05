@@ -1,3 +1,13 @@
+# PROJECT BRANCH-------------------------------------------Module.outputs
+#____________________________________________________
+#Module and file layout isolation implementation
+#____________________________________________________
+# This file contains module outputs
+# Author: Kennedy .N
+# Created: 6/3/2023
+#____________________________________________________
+#
+
 output "vcpid" {
   value = module.vpc.vpc_id 
 }
