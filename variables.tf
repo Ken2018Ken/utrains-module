@@ -24,7 +24,7 @@ variable "vpc_name" {
 }
 
 variable "vpc_cidr" {
-    #default = "my-vpc"
+    default = "192.168.0.0/16"
     description = "this is the vpc cidr block"
     type = string
   
@@ -85,3 +85,4 @@ variable "env" {
     type = string
     default="t3.micro"
 }
+
