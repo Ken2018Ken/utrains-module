@@ -34,3 +34,12 @@ key_name="stage-terraform-key"-----Key pair key name
 
 
 
+InstructionS____________________________________________________________________________________________________________________________________
+
+1. Clone the utrains module client from https://github.com/Ken2018Ken/utains-module-client.git
+2. Run "Terraform init" To download the latest modules from github
+3. Modify the terraform file "main.tf" to your liking
+4. Run "terraform plan"
+5. Run "terraform apply"
+6. go to your EC2 dashbooard on aws console and confirm that apply was successful
+7. ENJOY AND STUDY MORE!
